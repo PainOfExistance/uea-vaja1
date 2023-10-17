@@ -5,6 +5,7 @@ import kotlin.math.exp
 import kotlin.math.pow
 import kotlin.math.sqrt
 import kotlin.random.Random
+import Problem
 
 class CarromTable(override var dimensions: Int) : Problem() {
     override val name = "CarromTable"

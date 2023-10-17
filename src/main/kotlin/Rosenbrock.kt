@@ -3,6 +3,7 @@ import kotlin.math.abs
 import kotlin.math.sin
 import kotlin.math.sqrt
 import kotlin.random.Random
+import Problem
 
 class Rosenbrock(override val dimensions: Int) : Problem() {
     override val name = "Rosenbrock"

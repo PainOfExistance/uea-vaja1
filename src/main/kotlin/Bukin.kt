@@ -2,6 +2,7 @@ import java.lang.Math.pow
 import kotlin.math.abs
 import kotlin.math.sqrt
 import kotlin.random.Random
+import Problem
 
 class Bukin(override var dimensions: Int) : Problem() {
     override val name = "Bukin"

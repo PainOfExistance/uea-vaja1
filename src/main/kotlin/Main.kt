@@ -1,5 +1,13 @@
 import kotlin.random.Random
 
+import Sphere
+import Ackley
+import Schwefel26
+import Rosenbrock
+import Bukin
+import CarromTable
+import Easom
+import Trid
 
 fun main(args: Array<String>) {
     val problemName = args[0]

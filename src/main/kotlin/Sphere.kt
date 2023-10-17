@@ -1,5 +1,6 @@
 import kotlin.random.Random
 
+import Problem
 class Sphere(override val dimensions: Int) : Problem() {
     override val name = "Sphere"
     override val lowerBound: MutableList<Double>

@@ -1,5 +1,6 @@
 import java.lang.Math.pow
 import kotlin.random.Random
+import Problem
 
 class Trid(override val dimensions: Int) : Problem() {
     override val name = "Trid"
